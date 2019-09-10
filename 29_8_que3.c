@@ -1,3 +1,26 @@
+/*
+Given a Linked List of size N, where every node represents a linked list and contains two pointers
+of its type:
+(i) a next pointer to the next node,
+(ii) a bottom pointer to a linked list where this node is head.
+You have to flatten the linked list to a single linked list which is sorted.
+5-> 10 -> 19 -> 28
+|	|	|	  |
+V	v	v	  v
+7	20	22	  35
+|		|	  |
+V		v	  v
+8		50	  40
+|			  |
+V			  v
+30			  45
+
+and after flattening it, the sorted linked list looks like:
+5-> 7-> 8- > 10 -> 19-> 20-> 22-> 28-> 30-> 35-> 40-> 45-> 50
+
+*/
+
+
 #include<stdio.h>
 #include<stdlib.h>
 
